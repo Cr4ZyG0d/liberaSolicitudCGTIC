@@ -1,0 +1,91 @@
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #0B1827;
+    background-color: #efeff6;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+element.style {
+    text-decoration: none;
+}
+
+.bg_footer[_ngcontent-eol-c2] a[_ngcontent-eol-c2] {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.bg_footer{
+    background: #0B1827;
+    background: -webkit-gradient(linear,left top, right top,from(#0B1827),color-stop(#274D82),to(#0B1827));
+    background: linear-gradient(to right,#0B1827,#274D82,#0B1827);
+    color: #ffffff !important;
+    padding: 5px 0;
+	height: 50px;
+}
+
+h1{
+	font-style: normal;
+    font-weight: bold;
+	font-size: 20px;
+}
+
+/**** tablas ****/
+
+table{
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid white;
+
+}
+
+
+th {
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #6c7ae0;
+}
+
+td {
+	color: #808080;
+    line-height: 1.4;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f6ff;
+}
+
+.class2{
+	vertical-align: top;	
+}
+
+/**** componentes de avance *****/
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background: linear-gradient(to right,#0B1827,#274D82,#0B1827);
+  color: #ffffff; 
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+  color: #000000; 
+}
+
+
+.divspecial {
+	background-color: #000000;		
+}
