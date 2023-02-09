@@ -8,30 +8,35 @@
     <link href="./reports.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-    <div class="row"
-        style="background-image: url(./bg_header.png); background-repeat: no-repeat; background-size: cover">
-        <div _ngcontent-sxm-c1="" class="col-4" style="padding-top: 15px; padding-bottom: 10px;">
-            <img _ngcontent-sxm-c1="" alt="" src="./logo_2.png"
-                style=" width:250px; " tabindex="0" ng-reflect-router-link="inicio">
+<body style="display: flex; flex-direction: column; min-height: 97vh;">
+    <header style="flex: 0 0 auto;">
+        <div class="row"
+            style="background-image: url(http://10.180.3.15:8080/SedipReports/html/img/bg_header.png); background-repeat: no-repeat; background-size: cover">
+            <div _ngcontent-sxm-c1="" class="col-4" style="padding-top: 15px; padding-bottom: 10px;">
+                <img _ngcontent-sxm-c1="" alt="" src="http://10.180.3.15:8080/SedipReports/html/img/logo_2.png"
+                    style=" width:250px; " tabindex="0" ng-reflect-router-link="inicio">
+            </div>
         </div>
-    </div>
-    <div style="text-align: center;">
-        <form id="login-form" style="margin: 0 auto; width: 50%;">
-            <br /><label for="example-input" style="font-style: normal; font-weight: bold; font-size: 20px">Por favor
-                ingrese sus datos</label></br>
-            <input type="text" id="username" name="username" style="width: 200px; padding: 7px; margin: 10px;"
-                placeholder="Usuario"><br />
-            <input type="password" id="password" name="password" style="width: 200px; padding: 7px; margin: 10px;"
-                placeholder="Contraseña"><br />
-            <input type="submit" value="Iniciar sesión" id="btnSubmit"
-                style="background-color: #0e53ea; border-color: #0e53ea; color: white; padding: 10px 20px; margin: 10px;"><br />
-        </form>
-        </form>
-        <div id="error-message"></div>
-    </div>
+    </header>
+    <main style="flex: 1 0 auto;">
+        <div style="text-align: center;">
+            <form id="login-form" style="margin: 0 auto; width: 50%;">
+                <br /><label for="example-input" style="font-style: normal; font-weight: bold; font-size: 20px">Por
+                    favor
+                    ingrese sus datos</label></br>
+                <input type="text" id="username" name="username" style="width: 200px; padding: 7px; margin: 10px;"
+                    placeholder="Usuario"><br />
+                <input type="password" id="password" name="password" style="width: 200px; padding: 7px; margin: 10px;"
+                    placeholder="Contraseña"><br />
+                <input type="submit" value="Iniciar sesión" id="btnSubmit"
+                    style="background-color: #0e53ea; border-color: #0e53ea; color: white; padding: 10px 20px; margin: 10px;"><br />
+            </form>
+            </form>
+            <div id="error-message"></div>
+        </div>
+    </main>
     <footer _ngcontent-sxm-c2=""
-        style="linear-gradient(90deg, rgba(11,24,39,1) 0%, rgba(39,77,130,1) 35%, rgba(11,24,39,1) 100%);">
+        style="linear-gradient(90deg, rgba(11,24,39,1) 0%, rgba(39,77,130,1) 35%, rgba(11,24,39,1) 100%);flex: 0 0 auto;">
         <div _ngcontent-sxm-c2="" class="container-fluid bg_footer">
             <div _ngcontent-sxm-c2="" class="row">
                 <div _ngcontent-sxm-c2="" class="col-12">
@@ -41,7 +46,7 @@
                             REGISTRO CIVIL, IDENTIFICACIÓN Y CEDULACIÓN</a>
                     </div>
                     <div _ngcontent-sxm-c2="" style="float: right; width: 100%;  font-size: 10px;">
-                        <p _ngcontent-sxm-c2="" style="float: right;padding-right: 5px !important;">Versión 1.0</p>
+                        <p _ngcontent-sxm-c2="" style="float: right;padding-right: 5px !important;">Versión 1.3</p>
                     </div>
                 </div>
             </div>
